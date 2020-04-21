@@ -16,6 +16,10 @@ COVID-19 samples from Covid-Chestxray-Dataset are extracted from a several publi
 
 For Non-COVID samples, we tried to uniformly sample images from ChexPert. More details on the dataset are provided in our [paper](https://arxiv.org/pdf/2004.09363.pdf).
 
+Some of the sample images from our dataset are shown below. The images in the first row show COVID-19 cases, and the images in the remaining rows denote non-COVID cases.
+
+![samples](https://github.com/shervinmin/DeepCovid/blob/master/results/covid5k_samples.png)
+
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
 For data augmentation, we have used the [Augmentor](https://github.com/mdbloice/Augmentor) library in Python.
@@ -30,7 +34,11 @@ The training script gets a few arguments from the user, such as the training dat
 python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001
 ```
 
-This code fine-tunes a pre-trained ResNet18 model on the training dataset. The architecture of ResNet18 is shown below:
+This code fine-tunes a pre-trained ResNet18 model on the training dataset. 
+
+The architecture of ResNet18 is shown below:
+
+![resnet18](https://github.com/shervinmin/DeepCovid/blob/master/results/resnet18.png)
 
 
 Note that if you are running this on Windows, you need to set the num_workers to 0, as PyTorch support on Windows is still limited.
