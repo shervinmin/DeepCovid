@@ -35,7 +35,9 @@ In addition, the hisotgram of the predicted probabilities, the convusion matrix,
 
 **The inference code can be as:**
 
+```
 python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path ./data/test/non/ --trained_model_path ./models/covid_resnet18_epoch100.pt
+```
 
 
 ## Usage Right:
