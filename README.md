@@ -47,6 +47,7 @@ In addition, the hisotgram of the predicted probabilities, the convusion matrix,
 python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path ./data/test/non/ --trained_model_path ./models/covid_resnet18_epoch100.pt
 ```
 
+
 The predicted scores of the finetuned ResNet18 model on the test set are as below:
 
 ![ResNet_scores](https://github.com/shervinmin/DeepCovid/blob/master/results/hist_resnet18.png)
