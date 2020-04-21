@@ -17,6 +17,8 @@ For Non-COVID samples, we tried to uniformly sample images from ChexPert. More d
 
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
+For data augmentation, we have used the [Augmentor](https://github.com/mdbloice/Augmentor) library in Python.
+
 ## Training a model
 We have provided a Python script to train a ResNet18 model on the training data. 
 The training script gets a few arguments from the user, such as the training data path, leanring rate, number of epochs, etc. There is a default value for all of these arguments, but if you can specify your own argument too. 
