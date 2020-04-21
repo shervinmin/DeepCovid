@@ -45,7 +45,8 @@ python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path .
 
 
 ## Usage Right:
-This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi. If you find this work useful, you can refer our work as:
+This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi (our radiologist). The Arxiv version of the paper can be downloaded from [here](https://arxiv.org/pdf/2004.09363.pdf):
+If you find this work useful, you can refer our work as:
 
 ```
 @article{minaee2020deep,
