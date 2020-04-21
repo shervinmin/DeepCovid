@@ -1,7 +1,8 @@
 # DeepCovid Dataset and Implementation in PyTorch
 
-Here we provide the PyTorch implementation of the DeepCovid Framework (the training and inference code) for the research community to use.
+In this repository, we provide the PyTorch implementation of the DeepCovid Framework (the training and inference code) for the research community to use.
 
+We also provide a labeled dataset of 5000 images, which is used to train and evaluate this model.
 
 
 
