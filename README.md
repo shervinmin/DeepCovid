@@ -40,3 +40,10 @@ python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path .
 
 ## Usage Right:
 This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi. If you find this work useful, you can refer our work as:
+
+@article{minaee2020deep,
+  title={Deep-COVID: Predicting COVID-19 From Chest X-Ray Images Using Deep Transfer Learning},
+  author={Minaee, Shervin and Kafieh, Rahele and Sonka, Milan and Yazdani, Shakib and Jamalipour Soufi, Ghazaleh},
+  journal={arXiv preprint arXiv:2004.03705},
+  year={2020}
+}
