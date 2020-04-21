@@ -47,6 +47,10 @@ In addition, the hisotgram of the predicted probabilities, the convusion matrix,
 python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path ./data/test/non/ --trained_model_path ./models/covid_resnet18_epoch100.pt
 ```
 
+The predicted scores of the finetuned ResNet18 model on the test set are as below:
+
+![ResNet_scores](https://github.com/shervinmin/DeepCovid/blob/master/results/hist_resnet18.png)
+
 
 ## Usage Right:
 This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi (our radiologist). The Arxiv version of the paper can be downloaded from [here](https://arxiv.org/pdf/2004.09363.pdf):
