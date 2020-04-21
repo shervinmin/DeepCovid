@@ -5,7 +5,9 @@ Here we provide the PyTorch implementation of the DeepCovid Framework (the train
 
 
 # COVID-XRay-5K DATASET
-We prepared a dataset of around 5000 images, for 
+We prepared a dataset of around 5000 images, which can be downloaded from here: https://www.dropbox.com/s/mzas2tkd80pubh7/data_covid5k.zip?dl=0
+
+Two sources are used to create this dataset. 
 
 
 # Training a model
