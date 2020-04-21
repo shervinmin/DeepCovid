@@ -8,8 +8,8 @@ Here we provide the PyTorch implementation of the DeepCovid Framework (the train
 We prepared a dataset of around 5000 images, which can be downloaded from here: https://www.dropbox.com/s/mzas2tkd80pubh7/data_covid5k.zip?dl=0
 
 Two sources are used to create this dataset:
-* Covid-Chestxray-Dataset: 
-* [ChexPert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/)
+* [Covid-Chestxray-Dataset](https://github.com/ieee8023/covid-chestxray-dataset), for COVID-19 X-ray samples
+* [ChexPert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/), for Non-COVID samples
 
 
 
