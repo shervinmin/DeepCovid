@@ -4,6 +4,7 @@ Here we provide the PyTorch implementation of the DeepCovid Framework (the train
 
 
 
+
 ## COVID-XRay-5K DATASET
 We prepared a dataset of around 5000 images, which can be downloaded from here: [dataset_link](https://www.dropbox.com/s/mzas2tkd80pubh7/data_covid5k.zip?dl=0)
 
@@ -29,6 +30,9 @@ The training script gets a few arguments from the user, such as the training dat
 python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001
 ```
 
+This code fine-tunes a pre-trained ResNet18 model on the training dataset. The architecture of ResNet18 is shown below:
+
+
 Note that if you are running this on Windows, you need to set the num_workers to 0, as PyTorch support on Windows is still limited.
 
 ## Inference Code
@@ -52,7 +56,7 @@ If you find this work useful, you can refer our work as:
 @article{minaee2020deep,
   title={Deep-COVID: Predicting COVID-19 From Chest X-Ray Images Using Deep Transfer Learning},
   author={Minaee, Shervin and Kafieh, Rahele and Sonka, Milan and Yazdani, Shakib and Jamalipour Soufi, Ghazaleh},
-  journal={arXiv preprint arXiv:2004.03705},
+  journal={arXiv preprint arXiv:2004.09363},
   year={2020}
 }
 ```
