@@ -9,7 +9,7 @@ We prepared a dataset of around 5000 images, which can be downloaded from here: 
 
 Two sources are used to create this dataset:
 * Covid-Chestxray-Dataset: 
-* ChexPert Dataset: 
+* [ChexPert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/)
 
 
 
