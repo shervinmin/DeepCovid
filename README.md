@@ -48,7 +48,8 @@ python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path .
 ```
 
 
-The predicted scores of the finetuned ResNet18 model on the test set are as below:
+The predicted scores of the finetuned ResNet18 model on the test set are as below.
+As we can see the predicted probability scores of the COVID-19 samples are much larger than those of non-Covid samples, which is encouraging.
 
 ![ResNet_scores](https://github.com/shervinmin/DeepCovid/blob/master/results/hist_resnet18.png)
 
