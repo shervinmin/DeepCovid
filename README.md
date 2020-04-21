@@ -62,6 +62,9 @@ As we can see the predicted probability scores of the COVID-19 samples are much 
 ![ResNet_scores](https://github.com/shervinmin/DeepCovid/blob/master/results/hist_resnet18.png)
 
 
+## Disclaimer
+Although the results derived by finetuning various convolutional networks for COVID-19 detection are really encouraging, it is worth to mention that due to the limited number of COVID-19 images in our training and test sets, study on a larger number of cleanly labeled COVID-10 images is required to have a more concrete conclusion on the potential of X-ray images for COVID-19 deteciton.
+
 ## Usage Right:
 This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi (our radiologist). The Arxiv version of the paper can be downloaded from [here](https://arxiv.org/pdf/2004.09363.pdf):
 If you find this work useful, you can refer our work as:
