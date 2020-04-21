@@ -37,3 +37,6 @@ In addition, the hisotgram of the predicted probabilities, the convusion matrix,
 
 python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path ./data/test/non/ --trained_model_path ./models/covid_resnet18_epoch100.pt
 
+
+## Usage Right:
+This work is done by Shervin Minaee, Milan Sonka (the previous editor in chief of IEEE TMI), Rahele Kafieh, Shakib Yazdani, and Ghazaleh Jamalipour Soufi. If you find this work useful, you can refer our work as:
