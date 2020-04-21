@@ -17,11 +17,23 @@ For Non-COVID samples, we tried to uniformly sample images from ChexPert. More d
 
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
-# Training a model
+## Training a model
 We have provided a Python script to train a ResNet18 model on the training data. 
 The training script gets a few arguments from the user, such as the training data path, leanring rate, number of epochs, etc. There is a default value for all of these arguments, but if you can specify your own argument too. 
+
 **You can run the training code as:**
 
-python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001 --momentum 0.5
+python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001
 
 Note that if you are running this on Windows, you need to set the num_workers to 0, as PyTorch support on Windows is still limited.
+
+## Inference Code
+We have also provided the code for doing inference on the trained models. Given the path for the test samples, the inference code provides the predicted scores (probabilities) and predicted labels of the samples. 
+It also provides the sensitivity and specificity rate for different cut-off threshold.
+
+In addition, the hisotgram of the predicted probabilities, the convusion matrix, and ROC curve are also generated in the inference code. 
+
+**The inference code can be as:**
+
+python inference.py --test_covid_path ./data/test/covid/ --test_non_covid_path ./data/test/non/ --trained_model_path ./models/covid_resnet18_epoch100.pt
+
