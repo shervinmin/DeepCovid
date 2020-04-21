@@ -23,7 +23,9 @@ The training script gets a few arguments from the user, such as the training dat
 
 **You can run the training code as:**
 
+```
 python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001
+```
 
 Note that if you are running this on Windows, you need to set the num_workers to 0, as PyTorch support on Windows is still limited.
 
