@@ -31,7 +31,7 @@ python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num
 ```
 
 This code fine-tunes a pre-trained ResNet18 model on the training dataset. The architecture of ResNet18 is shown below:
-
+![alt text](https://www.dropbox.com/home/Projects/COVID_19?preview=resnet18.png)
 
 Note that if you are running this on Windows, you need to set the num_workers to 0, as PyTorch support on Windows is still limited.
 
