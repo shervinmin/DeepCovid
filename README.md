@@ -29,7 +29,7 @@ For data augmentation, we have used the [Augmentor](https://github.com/mdbloice/
 We have provided a Python script to train a ResNet18 model on the training data. 
 The training script gets a few arguments from the user, such as the training data path, leanring rate, number of epochs, etc. There is a default value for all of these arguments, but if you can specify your own argument too. 
 
-**You can run the training code as:**
+**You can run the training code as (you can of course change the values of arguments):**
 
 ```
 python ResNet18_train.py --dataset_path ./data/ --batch_size 20 --epoch 50 --num_workers 4 --learning_rate 0.001
