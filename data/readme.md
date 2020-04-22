@@ -1,5 +1,5 @@
 ## Download The Data
-Due to the large size of the dataset (around 300MB), it is uploaded on Dropbox and can be downloaded via this link: 
+Due to the relatively large size of the dataset (around 300MB), it is uploaded on Dropbox and can be downloaded via this link: 
 https://www.dropbox.com/s/mzas2tkd80pubh7/data_covid5k.zip?dl=0
 
 
@@ -18,6 +18,8 @@ For Non-COVID samples, we tried to uniformly sample images from ChexPert. More d
 Some of the sample images from our dataset are shown below. The images in the first row show COVID-19 cases, and the images in the remaining rows denote non-COVID cases.
 
 ![samples](https://github.com/shervinmin/DeepCovid/blob/master/results/covid5k_samples.png)
+
+Out of all COVID-19 X-ray images in **Covid-Chestxray-Dataset** (more than 100 images), a total of 71 images are verified by our board-certified radiologist to have a clear sign of COVID-19, and are used in our dataset. Out of these images, 31 are used for training and 40 for test images (due to some consideration w.r.t. maximum confidence interval for sensitivity rate). 
 
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
