@@ -23,4 +23,11 @@ Out of all COVID-19 X-ray images in **Covid-Chestxray-Dataset** (more than 100 i
 
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
+The number of samples from each class (COVID-19, and Non-COVID) in our dataset is shown below:
+
+| Split         | COVID-19      | Non-COVID  |
+| ------------- |:-------------:| -----:|
+| Training Set  | 31  (496 after augmentation) | 2000 |
+| Test Set      | 40            |   3000 |
+
 For data augmentation, we have used the [Augmentor](https://github.com/mdbloice/Augmentor) library in Python.
