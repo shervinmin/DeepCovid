@@ -23,7 +23,7 @@ Out of all COVID-19 X-ray images in **Covid-Chestxray-Dataset** (more than 100 i
 
 As the number of COVID-19 samples are much fewer than the number of Non-COVID samples, we used several data-augmentation techniques (as well as over-sampling) to increase the number of COVID-19 samples in training, to have a less imbalanced training set. Hopefully more cleanly labeled X-ray images from COVID-19 cases become available soon, so we do not have this imbalanced data issue.
 
-The number of samples from each class (COVID-19, and Non-COVID) in our dataset is shown below:
+The number of samples from each class (COVID-19, and Non-COVID) in our dataset is shown below. Here we share a subset of 580 non-Covid images for training set whihc we found to be sufficient for training the model:
 
 | Split         | COVID-19      | Non-COVID  |
 | ------------- |:-------------:| -----:|
