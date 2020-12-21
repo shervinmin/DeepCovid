@@ -1,11 +1,11 @@
 ## Download The Data
 Due to the relatively large size of the dataset, it is uploaded on Dropbox and can be downloaded via this link: 
-https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0
+[dataset_link](https://www.dropbox.com/s/9w8nmj791c9ogsx/data_upload_v3.zip?dl=0)
 
 
 ## COVID-XRay-5K Dataset Description
 
-We prepared a dataset of around 5000 images, which can be downloaded from here: [dataset_link](https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0)
+We prepared a dataset of around 5000 images, which can be downloaded from here: [dataset_link](https://www.dropbox.com/s/9w8nmj791c9ogsx/data_upload_v3.zip?dl=0)
 
 Two sources are used to create this dataset:
 * [Covid-Chestxray-Dataset](https://github.com/ieee8023/covid-chestxray-dataset), for COVID-19 X-ray samples
