@@ -93,8 +93,8 @@ sm = torch.nn.Softmax()
 
 
 ############### Get the predicted probabilities of all samples
-test_covid  = glob.glob("%s*" %args.test_covid_path)
-test_non    = glob.glob("%s*" %args.test_non_covid_path)
+test_covid  = glob.glob("%s/*" %args.test_covid_path)
+test_non    = glob.glob("%s/*" %args.test_non_covid_path)
 
 covid_pred= np.zeros([len(test_covid),1]).astype(int)
 non_pred  = np.zeros([len(test_non),1]).astype(int)
